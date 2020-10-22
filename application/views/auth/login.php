@@ -106,7 +106,7 @@
                                             <!-- Sign In Form -->
                                             <!-- jQuery Validation (.js-validation-signin class is initialized in js/pages/op_auth_signin.min.js which was auto compiled from _js/pages/op_auth_signin.js) -->
                                             <!-- For more info and examples you can check out https://github.com/jzaefferer/jquery-validation -->
-                                            <form class="js-validation-signin" action="be_pages_auth_all.html" method="POST">
+                                            <form class="js-validation-signin" action="<?php echo base_url(); ?>Home/dashboard" method="POST">
                                                 <div class="py-3">
                                                     <div class="form-group">
                                                         <input type="text" class="form-control form-control-alt form-control-lg" id="login-username" name="login-username" placeholder="Username">

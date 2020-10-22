@@ -7,4 +7,9 @@ class Home extends CI_Controller {
 	{
 		$this->load->view('auth/login');
 	}
+
+	function dashboard()
+	{
+		$this->load->view('dashboard');
+	}
 }
